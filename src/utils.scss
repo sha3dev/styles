@@ -29,3 +29,8 @@
   overflow: hidden;
   white-space: normal;
 }
+
+@mixin glass($color) {
+  background: rgba($color, 0.6);
+  backdrop-filter: blur(10.8px);
+}
